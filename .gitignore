@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.venv*/
+
+# Environment Variables & Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local database & temp files
+*.db
+*.sqlite3
+fraud_detection.db
+
+# OS files
+.DS_Store
+Thumbs.db
